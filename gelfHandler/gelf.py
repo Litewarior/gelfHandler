@@ -67,7 +67,7 @@ class GelfHandler(logging.Handler):
             'INFO': 6,
             'DEBUG': 7,
             'ERROR': 3,
-            'CRITICAL': 9
+            'CRITICAL': 2
         }
         try:
             return(levelsDict[level])
